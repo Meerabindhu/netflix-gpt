@@ -4,6 +4,7 @@ import { validateInputFields } from '../utils/auth';
 import { createUserWithEmailAndPassword, signInWithEmailAndPassword, updateProfile } from 'firebase/auth';
 import {auth} from '../utils/firebase'
 import { useNavigate } from 'react-router-dom';
+import { background_img } from '../utils/constants';
 
 const Login = () => {
     const [isSignUp, setIsSignUp] = useState(false);
@@ -55,7 +56,7 @@ const Login = () => {
         <div>
             <Header/>
             <div className='absolute'>
-                <img src="https://assets.nflxext.com/ffe/siteui/vlv3/729ce5c2-d831-436a-8c9d-f38fea0b99b3/web/IN-en-20241209-TRIFECTA-perspective_4aef76eb-7d5b-4be0-93c0-5f67320fd878_medium.jpg"
+                <img src={background_img}
                 alt="Background logo"/>
             </div>
             <form class="w-3/12 absolute p-12 left-0 right-0 mx-auto my-36 bg-[rgba(0,0,0,0.7)]">

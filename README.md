@@ -80,7 +80,21 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
  - Firebase setup
  - Deploying setup to prod
  - Create Signup and Signin user in Firebase
- - Setup Redux
+ - Created store with user slice
+ - Implemented signout
+ - Update Profile
+ - Bugfix- If user is logged in redirecting to /browse page and viceversa
+ - Unsubscribe to auth event
+ - Add hardcoded values to constants file
+ - Register TMDB API and create an app & get access token
+ - Get movies list from tmdb api
+ - Show the first movie as index movie and show the details
+ - create hook for apis
+ - create movie slice api
+ - Update store with trailer video data
+ - embed the youtube video and make it play automatically
+ - Built Main Container and Secondary Container
+ - Secondary container contains Movie List which in turn contains Movie Cards
 
 # Features
  - Login/Sign Up
